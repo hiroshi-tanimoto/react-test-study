@@ -2,7 +2,6 @@ import React from 'react'
 import { render, screen, cleanup } from '@testing-library/react';
 import userEvent from '@testing-library/user-event'
 import RenderInput from './RenderInput';
-import { isAsyncThunkAction } from '@reduxjs/toolkit';
 
 // it毎にレンダリングされたcomponentを削除するために必要
 afterEach(() => {
